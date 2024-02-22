@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="About Us/aboutUs.html"><i class="fa-regular fa-user"></i>About Us</a></li>
+        </ul>
+    </nav>
+    <div class="containner">
+        <div class="cl">
+            <div class="display">
+                <input id="Display" type="text">
+            </div>
+            <button onclick="cls()" id="Ac">C</button>
+            <button onclick="del()" id="del">del</button>
+            <button onclick="At_Add('%')" id="rem">%</button>
+            <button onclick="At_Add('/')" id="divide">/</button>
+            <button onclick="At_Add(1)" id="1">1</button>
+            <button onclick="At_Add(2)" id="2">2</button>
+            <button onclick="At_Add(3)" id="3">3</button>
+            <button onclick="At_Add('*')" id="mul">*</button>
+            <button onclick="At_Add(4)" id="4">4</button>
+            <button onclick="At_Add(5)" id="5">5</button>
+            <button onclick="At_Add(6)" id="6">6</button>
+            <button onclick="At_Add('-')" id="min">-</button>
+            <button onclick="At_Add(7)" id="7">7</button>
+            <button onclick="At_Add(8)" id="8">8</button>
+            <button onclick="At_Add(9)" id="9">9</button>
+            <button onclick="At_Add('+')" id="plus">+</button>
+            <button onclick="At_Add(0)" id="0">0</button>
+            <button onclick="At_Add('.')" id="dot">.</button>
+            <button onclick="calculate()" id="equal">=</button>
+
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

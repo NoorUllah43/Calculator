@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar styles */
+nav{
+    height: 50px;
+    background-color: rgb(172, 243, 157);
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin: 10px;
+    padding: 5px;
+}
+
+nav ul li a{
+    color: rgb(232, 95, 92);
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+nav ul li a i{
+    margin: 5px;
+}
+/* navbar styles end  */
+
+
+.containner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cl{
+    width: 220px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(56, 52, 52, 0.89);
+}
+.display input{
+    width: 200px;
+    padding: 8px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    width: 45px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+
+}
+button:active{
+    transform: scale(1.1);
+}
+#equal{
+    width: 100px;
+    background-color: orange;
+}
+
+
+
+#Ac{
+    background-color: red;
+    color: white;
+}
+#del,#rem, #divide,#mul,#min,#plus{
+    background-color: rgb(85, 146, 93);
+    color: white;
+}
